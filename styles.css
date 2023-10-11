@@ -23,7 +23,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 30px 10px rgb(0 0 0 / 0.4);
 }
-
+.containersignup {
+    height: 340px;
+}
 /* Form */
 form {
     width: 90%;
