@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Log in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/image/b-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container containersignup">
+      <h1>Welcome Back</h1>
+      <p>Don't have an acount ?<a href="sign-up.html">sing up</a></p>
+      <form id="form">
+        <!-- Email -->
+        <div class="inputs">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="email@address.com"
+            name="email"
+            required
+          />
+        </div>
+        <!-- Password -->
+        <div class="inputs">
+          <label for="password1">Password</label>
+          <input
+            type="password"
+            id="password1"
+            placeholder="Create Password (Minimum 8 characters)"
+            required
+            pattern="^(?=.*[a-z])(?=.*[a-zA-Z]).{8,}$"
+            title="you password is weak at least ,you shold enter 8 characters"
+          />
+        </div>
+        <button type="submit">Sign in</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
