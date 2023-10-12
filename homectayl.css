@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    color:white;
+    font-size: 25px;
+
+}
+body{
+    background-color: rgb(20, 17, 17);
+    display:flex;
+}
+.side li, #menu{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    overflow: hidden;
+}
+.side{
+    background: rgb(128,0,128);
+    background: linear-gradient(180deg, rgba(128,0,128,1) 0%, rgba(0,140,255,1) 100%);
+    width: 40px;
+    height: 100vh;
+    padding:20px;
+}
+.side:hover{
+    width: 300px;
+
+}
+ul{
+    list-style: none;
+    height: 95%;
+    position: relative;
+}
+ul li{
+    padding: 7px;
+    margin:30px 0;
+    border-radius: 14px;
+}
+ul li a, #menu{ 
+    text-decoration: none;
+    display: block;
+    
+}
+ul li:hover, #menu{
+    background-color: rgb(52, 143, 157);
+}
+.contact{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#img-profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:3px solid rgb(121,7,135);
+    
+}
+#img-profile img{
+    width: 100%;
+    height: 100%;
+}
+.profil{
+    display:flex;
+    align-items: center;
+    gap: 20px; 
+}
+#body{
+    background-color: rgb(185, 173, 173);
+    width: 100%;
+}
+.title{
+    background: rgb(128,0,128);
+    background: linear-gradient(90deg, rgba(128,0,128,1) 0%, rgba(0,140,255,1) 100%);
+    height:10%;
+}
+.bar{
+    height: 100%;
+    align-items:center;
+    display: flex;
+    gap: 10px;
+    margin-left:78%;
+}
+
+.sign-in,.sign-up{
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+}
+.bar a{
+    text-decoration: none;
+}
+
+
+.log-in:hover, .log-out:hover{
+    background-color:rgb(165, 162, 165);
+}
+.content {
+    background-color :#69c3ec;
+    width: 100%;
+    height: 90%;
+}
+.table {
+    width: 100%;
+    height: 100%;
+
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+tr td{
+    width: 20%;
+    height:25%;
+}
