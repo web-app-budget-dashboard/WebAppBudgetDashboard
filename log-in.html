@@ -3,7 +3,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Log in</title>
+    <title>Sign in</title>
+    <script src='https://code.jquery.com/jquery-2.2.4.js'> </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/image/b-logo.png" />
     <link rel="stylesheet" href="styles.css" />
@@ -33,12 +34,12 @@
             placeholder="Create Password (Minimum 8 characters)"
             required
             pattern="^(?=.*[a-z])(?=.*[a-zA-Z]).{8,}$"
-            title="you password is weak at least ,you shold enter 8 characters"
+            title="you password is weak at least ,you should enter 8 characters"
           />
         </div>
-        <button type="submit">Sign in</button>
+        <button type="submit" id="bt1">Sign in</button>
       </form>
     </div>
-    <script src="main.js"></script>
+    <script src="log-in.js"></script>
   </body>
 </html>
