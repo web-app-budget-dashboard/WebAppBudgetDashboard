@@ -26,11 +26,13 @@ function checkLog() {
   }
 }
 
-$("#bt").on("click", function () {
+$("#bt").on("click", function (event) {
+  event.preventDefault()
   checkLog();
   if (noEmpty && passconfirm) {
     localStorage.setItem("email", email.value);
     localStorage.setItem("password", passwordd.value);
     localStorage.setItem("name", names.value);
+    window.location.href="./index.html"
   }
 });
