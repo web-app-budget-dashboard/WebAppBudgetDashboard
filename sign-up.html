@@ -31,7 +31,7 @@
                 <label for="password1">Password</label>
                 <input type="password" id="password1" placeholder="Create Password (Minimum 8 characters)" required
                     pattern="^(?=.*[a-z])(?=.*[a-zA-Z]).{8,}$"
-                    title="you password is weak at least ,you shold enter 8 characters" 
+                    title="you password is weak at least ,you should enter 8 characters" 
                     maxlength="15"/>
             </div>
             <!-- Confirm Password -->
@@ -40,10 +40,12 @@
                 <input type="password" id="password2" name="password" placeholder="Confirm Password" required
                     pattern="^(?=.*[a-z])(?=.*[a-zA-Z]).{8,}$" />
             </div>
-            <button type="submit">Sign up</button>
+            <button type="submit" id="bt">Sign up</button>
+            <p>Do you have an acount ?<a href="log-in.html">Log in</a></p>
+
         </form>
     </div>
-    <script src="main.js"></script>
+    <script src="signup.js"></script>
 </body>
 
 </html>
