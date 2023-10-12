@@ -17,10 +17,10 @@ function verifyUser(){
         }
     }
 
-$("#bt1").on("click",function () {
-    console.log("hello")
+$("#bt1").on("click",function (event) {
+    event.preventDefault()
     verifyUser()
     if(verif){
-
+        window.location.href="./index.html"
     }
 })
