@@ -14,6 +14,8 @@ ul li a{
 body{
     background-color: rgb(20, 17, 17);
     display:flex;
+    background-image: url("/WebAppBudgetDashboard/img/180462.png");
+    backdrop-filter: blur(10px);
 }
 .side li, #menu{
     display: flex;
@@ -73,20 +75,22 @@ ul li:hover, #menu{
     gap: 20px; 
 }
 #body{
-    background-color: rgb(185, 173, 173);
+    /* background-color: rgb(185, 173, 173); */
     width: 100%;
 }
 .title{
     background: rgb(128,0,128);
     background: linear-gradient(90deg, rgba(128,0,128,1) 0%, rgba(0,140,255,1) 100%);
     height:10%;
+    display: flex;
 }
 .bar{
     height: 100%;
     align-items:center;
     display: flex;
-    gap: 10px;
-    margin-left:78%;
+
+    gap: 22px;
+    margin-left: auto;
 }
 
 .sign-in,.sign-up{
@@ -115,10 +119,11 @@ ul li:hover, #menu{
     height: 100%;
 
 }
-img {
-    width: 100%;
-    height: 100%;
-}
+
+    img {
+        width: 17%;
+        height: 100%;
+    }
 tr td{
     width: 20%;
     height:25%;

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Budget manager</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="homectayl.css">
-    <link rel="stylesheet" href="./prasing.css">
+    <link rel="stylesheet" href="./padjet.css">
+
 </head>
+
 <body>
     <nav class="side">
         <ul>
@@ -18,7 +21,15 @@
                 <p>users-profile</p>
             </li>
             <li id="menu">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                    <style>
+                        svg {
+                            fill: #ffffff
+                        }
+                    </style>
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
             </li>
             <li class="home">
                 <i class="fas fa-home"></i>
@@ -26,37 +37,76 @@
             </li>
             <li class="">
                 <i class="fas fa-chart-pie"></i>
-                <a href="./padject.html">Budget Manager</a> 
+                <a href="./padject.html">Budget Manager</a>
             </li>
             <li class="contact">
                 <i class="fas fa-user-group"></i>
-                <a href="#">Contact</a> 
+                <a href="#">Contact</a>
             </li>
         </ul>
 
 
     </nav>
+
     <label id="body">
-    <header class="title">
-        <!-- <nav class="bar">
-            <div class="sign-in" align="center"  >
-                <a href="log-in.html">Sign in</a>
+        <header class="title">
+            <img class="logoimage" src="./img/logo.png" alt="logo">
+            </nav>
+        </header>
+
+
+
+        <div class="container">
+            <div class="calcul">
+                <div id="earned" class="number">
+                    <small>Money Earned</small>
+                    <div class="amount-container">
+                        <span id="amount-earned"></span>
+                        <p id="total-earn">Dt</p>
+                    </div>
+                </div>
+                <div id="available" class="number">
+                    <small>Money Available</small>
+                    <div class="amount-container">
+                        <span id="amount-available"></span>
+                        <p>Dt</p>
+                    </div>
+                </div>
+                <div id="spent" class="number">
+                    <small>Money Spent</small>
+                    <div class="amount-container">
+                        <p id="total-spent">Dt</p>
+                        <span id="amount-spent"></span>
+                    </div>
+                </div>
             </div>
-            <div class="sign-up" align="center">
-                <a href="sign-up.html">Sign up</a>
-            </div> -->
-        </nav>
-    </header>
-   
+            <div class="inputs">
+                <input type="text" id="description" placeholder="Description">
+                <input type="number" id="amount" placeholder="Amount">
+            </div>
+            <div class="buttonss">
+                <button id="add-income">Add Income</button>
+                <button id="add-expense">Add Expense</button>
+            </div>
+            <div class="items-list">
+                <div id="income-list" class="container">
+                    <h2>Income</h2>
+
+                </div>
+                <div id="expenses-list" class="container">
+                    <h2>Expenses</h2>
+
+                </div>
+            </div>
+        </div>
 
 
-    
+    </label>
 
-</label>
-    
-        
+
     </article>
 
-    
+
 </body>
+
 </html>
