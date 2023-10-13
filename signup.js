@@ -33,6 +33,6 @@ $("#bt").on("click", function (event) {
     localStorage.setItem("email", email.value);
     localStorage.setItem("password", passwordd.value);
     localStorage.setItem("name", names.value);
-    window.location.href="./index.html"
+    window.location.href="./padject.html"
   }
 });
