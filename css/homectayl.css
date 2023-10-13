@@ -17,7 +17,7 @@ ul li a{
 body{
     background-color: rgb(20, 17, 17);
     display:flex;
-    background-image: url("./img/180462.png");
+    background-image: url("/img/180462.png");
     backdrop-filter: blur(10px);
 }
 .side li, #menu{
