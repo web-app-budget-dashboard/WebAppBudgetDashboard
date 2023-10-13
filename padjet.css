@@ -76,11 +76,10 @@ body {
     margin: 10px 0 3rem;
 }
 
-.buttonss #add-income,
-.buttonss #add-expense {
+.buttonss #add-income, .buttonss #add-expense, .buttonss #delete {
     border: none;
     padding: 10px 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 15px;
     outline: none;
     cursor: pointer;
@@ -93,7 +92,10 @@ body {
 #add-expense {
     background-color: #bc4749;
 }
+#delete {
+    background-color: #114178;
 
+}
 .items-list {
     display: flex;
     justify-content: space-between;
@@ -158,4 +160,13 @@ body {
     animation: showDelete;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+}
+#expenses-list div, #income-list div{
+    display: flex;
+    gap:40px;
+    border: 1px solid #373b37;
+    border-radius: 8px;
+    width: 300px;
+    margin-top: 20px;
+    
 }
