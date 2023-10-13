@@ -4,7 +4,9 @@ main {
     align-items: center;
     margin-top: 50px;
 }
-
+.title {
+    background: none;
+}
 .firstcard,
 .card-standard,
 .card-premium {
